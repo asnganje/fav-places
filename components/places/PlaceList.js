@@ -9,7 +9,7 @@ function PlaceList({places}) {
     )
   }
 
-  if (!places.length) {
+  if (!places?.length) {
     return <View style={styles.fallbackContainer}>
       <Text style={styles.fallbackText}>No places added yet!</Text>
     </View>
